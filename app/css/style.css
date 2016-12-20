@@ -1,0 +1,48 @@
+.jumbotron {
+    width: 500px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.table {
+    margin-top: 20px;
+}
+.table tr th {
+    text-align: center;
+}
+.form-control {
+    margin-bottom: 5px;
+}
+button {
+    margin-top: 10px;
+}
+.selecionado {
+    background-color: lightyellow;
+}
+.negrito {
+    font-weight: bold;
+}
+.fork {
+    text-align: center;
+    margin-bottom: 15px;
+}
+.redesSociais {
+    margin-top: 10px;
+}
+.redesSociais ul li {
+    list-style-type:none;
+    display: inline-block;
+}
+.redesSociais ul li img {
+    width: 50px;
+}
+#facebookPadrao{
+    border-radius: 20px;
+    margin-left: 20px;
+}
+#githubPadrao{
+    width: 90px !important;
+}
