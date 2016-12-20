@@ -38,5 +38,5 @@
    <h6>Especialmente ao Rodrigo Branas, por disponibilizar conteúdo excelente de forma
    gratuita.</h6>
    
-   ##### Segue o link do canal 
-    https://www.youtube.com/watch?v=_y7rKxqPoyg&list=PLQCmSnNFVYnTD5p2fR4EXmtlR6jQJMbPb
+##### Segue o link do canal 
+ https://www.youtube.com/channel/UCkqOofjb7nl6V8vXrIbGtiQ
