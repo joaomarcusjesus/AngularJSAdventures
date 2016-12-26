@@ -12,9 +12,9 @@ var http = require('http');
     ];
 
     var contatos = [
-        {nome: "Vini", telefone: "8888888", data: new Date(), color: "blue"},
-        {nome: "Bruno", telefone: "33333333", data: new Date(), color: "green"},
-        {nome: "Amanda", telefone: "2222222", data: new Date(), color: "purple"}
+        {nome: "Vini De Andrade", telefone: "8888888", data: new Date(), color: "blue"},
+        {nome: "Bruno Felix", telefone: "33333333", data: new Date(), color: "green"},
+        {nome: "Amanda Gomes", telefone: "2222222", data: new Date(), color: "purple"}
     ];
 
 http.createServer(function (req, res) {

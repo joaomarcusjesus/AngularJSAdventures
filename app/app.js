@@ -2,7 +2,7 @@
  * Created by João Marcus on 18/12/2016.
  */
 angular.module("listaTelefonica",["ngMessages"]);
-angular.module("listaTelefonica").controller("listaTelefonicaCtrl", function ($scope, $http, contatosAPI) {
+angular.module("listaTelefonica").controller("listaTelefonicaCtrl", function ($scope, $http, contatosAPI, serialGeneratorService) {
 
     var _this = this;
 
@@ -17,9 +17,12 @@ angular.module("listaTelefonica").controller("listaTelefonicaCtrl", function ($s
     var carregarOperadoras = function () {
         $http.get("http://localhost:8080/operadoras").then(function (backend) {
             $scope.operadoras = backend.data;
+        }).catch(function (data, status) {
+            $scope.error = "Não foi possível carregar os dados!";
         });
     };
     $scope.adicionarContato = function (contato) {
+        contato.serial = serialGeneratorService.generate();
         $scope.contatos.push(angular.copy(contato));
         _this.limparDados();
     };
